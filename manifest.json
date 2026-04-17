@@ -1,13 +1,13 @@
 {
-  "name": "Custom Calendar Heatmap",
+  "name": "GA4 Conversion Alerts Heatmap",
   "organization": "42digital",
-  "description": "Day × Hour heatmap.",
+  "description": "Day × Hour heatmap for GA4 conversion alerts. Shows purchase and session_start conversions per 30-min slot, with alert highlighting.",
   "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/images/community-viz-logo.png",
   "organizationUrl": "",
   "supportUrl": "",
   "privacyPolicyUrl": "",
   "termsOfServiceUrl": "",
-  "packageUrl": "https://github.com/yongliqi/data-calendar-heatmap/",
+  "packageUrl": "https://yongliqi.github.io/data-calendar-heatmap/",
   "components": [
     {
       "id": "ga4HeatmapViz",
