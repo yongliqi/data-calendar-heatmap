@@ -1,0 +1,23 @@
+{
+  "name": "GA4 Conversion Alerts Heatmap",
+  "organization": "42digital",
+  "description": "Day × Hour heatmap for GA4 conversion alerts. Shows purchase and session_start conversions per 30-min slot, with alert highlighting.",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/images/community-viz-logo.png",
+  "organizationUrl": "",
+  "supportUrl": "",
+  "privacyPolicyUrl": "",
+  "termsOfServiceUrl": "",
+  "packageUrl": "https://YOUR_HOST/ga4-heatmap-viz/",
+  "components": [
+    {
+      "id": "ga4HeatmapViz",
+      "name": "GA4 Heatmap",
+      "description": "Heatmap of conversions by date and hour",
+      "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/images/community-viz-logo.png",
+      "resource": {
+        "js": "viz.js",
+        "config": "viz.json"
+      }
+    }
+  ]
+}

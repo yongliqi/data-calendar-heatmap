@@ -1,0 +1,107 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Data",
+      "elements": [
+        {
+          "id": "query_date",
+          "label": "Date",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "query_hour",
+          "label": "Hour (0–23)",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "metric_value",
+          "label": "Conversions",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "alert_triggered",
+          "label": "Alert Triggered (0/1)",
+          "type": "METRIC",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "colorOptions",
+      "label": "Color Theme",
+      "elements": [
+        {
+          "id": "colorScheme",
+          "label": "Color scheme",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "blue",
+          "options": [
+            { "label": "Blue (sessions)", "value": "blue" },
+            { "label": "Green (purchases)", "value": "green" },
+            { "label": "Red alert", "value": "red" }
+          ]
+        },
+        {
+          "id": "alertColor",
+          "label": "Alert highlight color",
+          "type": "FILL_COLOR",
+          "defaultValue": { "color": "#E24B4A" }
+        },
+        {
+          "id": "showAlerts",
+          "label": "Highlight alerts",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        }
+      ]
+    },
+    {
+      "id": "displayOptions",
+      "label": "Display",
+      "elements": [
+        {
+          "id": "alertWindowStart",
+          "label": "Alert window start hour",
+          "type": "TEXTINPUT",
+          "defaultValue": "7"
+        },
+        {
+          "id": "showLegend",
+          "label": "Show legend",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        },
+        {
+          "id": "showTooltips",
+          "label": "Show tooltips",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "onClick",
+      "supportedActions": ["FILTER"]
+    }
+  ]
+}
