@@ -1,13 +1,14 @@
 {
   "name": "GA4 Conversion Alerts Heatmap",
   "organization": "42digital",
-  "description": "Day × Hour heatmap for GA4 conversion alerts. Shows purchase and session_start conversions per 30-min slot, with alert highlighting.",
+  "description": "Day x Hour heatmap for GA4 conversion alerts.",
   "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/images/community-viz-logo.png",
-  "organizationUrl": "",
-  "supportUrl": "",
-  "privacyPolicyUrl": "",
-  "termsOfServiceUrl": "",
-  "packageUrl": "https://yongliqi.github.io/data-calendar-heatmap/",
+  "organizationUrl": "https://storage.googleapis.com/looker-assets-42d/data-calendar-heatmap/",
+  "supportUrl": "https://storage.googleapis.com/looker-assets-42d/data-calendar-heatmap/",
+  "privacyPolicyUrl": "https://storage.googleapis.com/looker-assets-42d/data-calendar-heatmap/",
+  "termsOfServiceUrl": "https://storage.googleapis.com/looker-assets-42d/data-calendar-heatmap/",
+  "packageUrl": "https://storage.googleapis.com/looker-assets-42d/data-calendar-heatmap/",
+  "devMode": true,
   "components": [
     {
       "id": "ga4HeatmapViz",
@@ -15,8 +16,8 @@
       "description": "Heatmap of conversions by date and hour",
       "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/images/community-viz-logo.png",
       "resource": {
-        "js": "viz.js",
-        "config": "viz.json"
+        "js": "gs://looker-assets-42d/data-calendar-heatmap/viz.js",
+        "config": "gs://looker-assets-42d/data-calendar-heatmap/viz.json"
       }
     }
   ]
